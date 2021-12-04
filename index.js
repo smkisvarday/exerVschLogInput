@@ -42,11 +42,17 @@
 // console.log("This was just typed: " +(e.target.value));
 // }
 
-document.getElementById("text1").value;
-console.log("The user just typed " +("text1".target.value));
+// document.getElementById("text1").value;
+// console.log("The user just typed " +("text1".target.value));
 
-<script type="text/javascript">
-  function searchURL(){
-    window.location = "http://www.myurl.com/search/" + (input text value);
-  }
-</script>
+// <script type="text/javascript">
+//   function searchURL(){
+//     window.location = "http://www.myurl.com/search/" + (input text value);
+//   }
+// </script>
+
+
+let uname = document.querySelector("#uname");
+function send() {
+  console.log(uname.value);
+}
